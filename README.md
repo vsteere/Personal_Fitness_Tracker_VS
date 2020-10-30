@@ -6,3 +6,7 @@ Afterwards they can view a summary of their workout and see a dashboard summariz
 ## Images
 ![Alt text](/Assets/pic1.JPG?raw=true "Dashboard")
 ![Alt text](/Assets/pic2.JPG?raw=true "User interface")
+
+## Links
+GitHub repository: https://github.com/vsteere/Personal_Fitness_Tracker_VS
+
