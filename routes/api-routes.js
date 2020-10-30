@@ -25,7 +25,7 @@ router.get("/api/workouts", (req, res) => {
     });
 });
 
-//based on requirements in stats.js
+
 router.get("/api/workouts/range", ({ body }, res) => {
   Workout.find({})
     .then(workout => {
