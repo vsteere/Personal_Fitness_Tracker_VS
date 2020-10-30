@@ -11,4 +11,4 @@ Afterwards they can view a summary of their workout and see a dashboard summariz
 ## Links
 GitHub repository: https://github.com/vsteere/Personal_Fitness_Tracker_VS
 
-Deployed application: 
+Deployed application: https://vs-fitness-tracker.herokuapp.com/
