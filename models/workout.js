@@ -1,15 +1,31 @@
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
-
+//setting up the schema based on the requirements in the seeders
 const workoutSchema = new Schema({
   day: {
     type: Date,
     default: Date.now
   },
-  exercises:[{type: String, name: String, duration: Number, weight: Number, reps: Number, set: Number}
+  exercises: [
+    {
+      type: {
+        type: String,
+        trim: true,
+
+      },
+      name: {
+        type: String,
+        trim: true
+      },
+      duration: { type: Number },
+      weight: { type: Number },
+      reps: { type: Number },
+      set: { type: Number },
+      distance: {type: Number}
+    }
   ]
-  
+
 });
 
 const Workout = mongoose.model("workout", workoutSchema);
