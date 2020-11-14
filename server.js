@@ -1,3 +1,5 @@
+
+//requiring in express and mongoose
 const express = require("express");
 const mongoose = require("mongoose");
 
@@ -10,6 +12,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+//setting up mongoose server
 mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
   {
